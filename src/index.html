@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+
+
+<link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</head>
+<body class="page container">
+  <h1 class="header-title">English grammar</h1>
+<div class="container record">
+    
+</div>
+    <form name="user" class="formName">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Чтобы начать тест введите свое имя.</label>
+          <input required type="text" class="form-control" name="name" aria-describedby="emailHelp">
+         
+        </div>
+         <button type="submit" class="btn btn-primary buttonForm">Старт!</button>
+      </form>
+
+
+   
+
+    <div id="carousel" class="display-none" >
+        
+        <div class="gallery">
+         <ul>
+
+         </ul>
+        </div>
+       
+    </div>
+    <div class="result-container">
+       
+       <h1 class="result display-none"></h1>
+       <h1 class="anti-result display-none"></h1>
+    </div>
+    <button class="btn btn-success  button-again display-none"> Пройти тест заново?</button>
+
+
+    
+    <table class="table display-none">
+       
+        <thead>
+          <tr>
+         
+            <th scope="col">Имя</th>
+            <th scope="col">Баллы</th>
+            <th scope="col">Время выполнения</th>
+          </tr>
+        </thead>
+        <tbody class="tbody">
+  
+        </tbody>
+  </table>
+
+
+  <script src="<%=htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+</body>
+
+
+
+
+</html>

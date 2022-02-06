@@ -1,0 +1,211 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  .place-card{
+    display: inline-block;
+  }
+  .test-container {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-around;
+    min-height: 200px;
+    max-width: 400px;
+  
+  }
+  
+  .proverka {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .block-size {
+    max-width: 100px;
+  }
+  
+  .vopros {
+  
+    display: flex;
+    justify-content: center;
+  
+    text-align: center;
+  
+  }
+  
+  .otvet {
+    display: flex;
+    justify-content: center;
+  
+    text-align: center;
+  
+  }
+  
+  .otvet-proverka {
+    display: flex;
+    justify-content:center;
+    text-align: center;
+  
+  }
+  
+  
+  .btn-margin {
+    margin-right: 10px;
+  }
+  
+  .border-red {
+    border: solid red 1px;
+  }
+  
+  .border-green {
+    border: solid 1px green;
+  }
+  
+  .otvet-variant {
+    display: flex;
+    justify-content: center;
+  
+    text-align: center;
+  
+  
+  
+  
+  }
+  
+  .otvet-text {
+    margin-right: 10px;
+  }
+  
+  .otvet-text5 {
+    margin-right: 10px;
+  }
+  
+  .otvet-text6 {
+    margin-right: 10px;
+  }
+  
+  .vopros-text1 {
+    margin-right: 10px;
+  }
+  
+  .vopros-text2 {
+    margin-right: 10px;
+  }
+  .result{
+    
+  }
+  .anti-result{
+   
+  }
+  .display-none {
+    display: none;
+  }
+  
+  .image {
+    max-width: 500px;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  
+  
+  .carousel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    min-height: 600px;
+    padding: 10px 40px;
+    border: 1px solid #CCC;
+    border-radius: 15px;
+    background: #eee;
+  }
+  
+  .carousel img {
+    width: 80%;
+    height: 130px;
+    
+    display: block;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 60px;
+    padding: 0;
+    background: #ddd;
+    border-radius: 15px;
+    border: 1px solid gray;
+    font-size: 24px;
+    line-height: 24px;
+    color: #444;
+    display: block;
+  }
+  
+  .arrow:focus {
+    outline: none;
+  }
+  
+  .arrow:hover {
+    background: #ccc;
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 7px;
+  }
+  
+  .next {
+    right: 7px;
+  }
+  
+  .gallery {
+    width: 300px;
+    overflow: hidden;
+  }
+  
+  .gallery ul {
+    height: 300px;
+    width: 9999px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transition: margin-left 250ms;
+    font-size: 20px;
+  }
+  
+  .gallery li {
+    display: inline-block;
+    width: 300px;
+  }
+  
+  .header-title {
+    text-shadow:
+      1px 1px 0 hsl(20,100%,50%),
+      2px 2px 0 hsl(20,100%,50%),
+      3px 3px 0 hsl(35,100%,50%),
+      4px 4px 0 hsl(35,100%,50%),
+      5px 5px 0 hsl(45,100%,50%),
+      6px 6px 0 hsl(45,100%,55%),
+      7px 7px 0 hsl(55,100%,60%),
+      8px 8px 0 hsl(55,100%,65%);
+    color: hsl(0,100%,40%);
+    transition: all 1s;
+  }
+  
+.header-title:hover {
+    text-shadow:
+      1px -1px 0 hsl(290,100%,40%),
+      2px -2px 0 hsl(290,100%,40%),
+      3px -3px 0 hsl(280,100%,60%),
+      4px -4px 0 hsl(280,100%,60%),
+      5px -5px 0 hsl(270,100%,75%),
+      6px -6px 0 hsl(270,100%,80%),
+      7px -7px 0 hsl(260,100%,85%),
+      8px -8px 0 hsl(260,100%,90%);
+    color: hsl(300,100%,30%);
+  }
