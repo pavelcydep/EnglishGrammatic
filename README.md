@@ -27,15 +27,15 @@
 
 ### Склонировать проект на ПК:
 
-    git clone https://github.com/pavelcydep/neews-explorer-frontend.git
-![alt text](top2.png)   
+    git clone
+ 
 
 
 ### Установить зависимости
 
     npm install
 
-![alt text](top3.png)
+
 
 ## Работа
 
@@ -44,7 +44,6 @@
     npm run dev
     
 Это приведет к запуску локального сервера доступного по ссылке http://localhost:8080/, все файлы будут компилироваться в режиме разработки.
-![alt text](top.png)  
 
 #### Для сборки проекта в production:
 
@@ -56,12 +55,9 @@
 
 Стек технологий
 ===============
-![alt text](%D0%91%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20(1).png)  
+![alt text]()  
 
- ![alt text](js%20css.png)
+ ![alt text]()
  
 
 
-Планы по доработке
-==================
-- сделать то же самое приложение с помощью React. 
