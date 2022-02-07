@@ -1,5 +1,5 @@
 # EnglishGrammatic
-<p align="center">
+<p align="center" font-size="50px">
    EnglishGrammatic  
      
   </p>
