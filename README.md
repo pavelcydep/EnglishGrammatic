@@ -1,5 +1,5 @@
 # EnglishGrammatic
-![Демонстрационный ролик](english1.gif)
+![Демонстрационный ролик](english2.gif)
 ## Приложение для изучения английского языка
 ## Демо: https://pavelcydep.github.io/EnglishGrammatic/
 
