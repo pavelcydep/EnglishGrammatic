@@ -1,6 +1,6 @@
 # EnglishGrammatic
 <p align="center">
-   EnglishGrammatic  width="400">
+   EnglishGrammatic  
      
   </p>
 ![Демонстрационный ролик](english.gif)
